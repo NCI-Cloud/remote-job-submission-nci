@@ -1,0 +1,3 @@
+#!/bin/bash
+source remotehost.sh
+ssh -t $REMOTE_HOST $REMOTE_PBSBASE/qsub $@
